@@ -10,7 +10,7 @@
     ║  WELCOME                                                                                ║
     ╠ ═══════════════════════════════════════════════════════════════════════════════════════ ╣
     | Welcome to your new Tails OS USB device!                                                |
-    | This repository contains essential documentation and files to ensure the integrity      |
+    | This repository contains essential documentation and files to help ensure the integrity |
     | and security of your Tails OS USB device.                                               |
     ╔ ═══════════════════════════════════════════════════════════════════════════════════════ ╗
     ║  READ_ME.TXT                                                                            ║
@@ -53,8 +53,6 @@
     | websites can easily be altered to include malicious tid bits, without any visible       |
     | signs of tampering. The file may look legitimate, but it could easily be hiding some    |
     | of those cyber STDs I mentioned above... gross.                                         |
-    |                                                                                         |
-    | These are just a few of the reasons why file integrity verification is important        |
     ╔ ═══════════════════════════════════════════════════════════════════════════════════════ ╗
     ║  IMPORTANT NOTE                                                                         ║
     ╠ ═══════════════════════════════════════════════════════════════════════════════════════ ╣
