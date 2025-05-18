@@ -34,16 +34,17 @@
     | yourself and a really bad day.                                                          |
     |                                                                                         |
     | - Preventing Malware Infections: The cyber STD                                          |
-    | Downloads from shady sources often containing malicious payloads - Viruses, Trojans,    |
-    | ransomware, or other nasty surprises. Verifying your downloads helps ensure you're not  |
-    | unintentially signing up for a "free trial" to something you didn't ask for, like a     |
-    | remote access Trojan.                                                                   |
+    | Files obtained from shady sources (like Defcon) can easily contain malicious payloads,  |
+    | viruses, trojans, ransomware, or other nasty little surprises. Verifying your files     |
+    | helps to ensure you're not unintentially signing up for a "free trial" to something     |
+    | you didn't ask for - like a remote access Trojan.                                       |
     |                                                                                         |
     | - Data Corruption: Not all downloads are created equal                                  |
     | Sometimes files go rogue. It's not a conspiracy, it's just the reality of how data moves|
-    | across networks. Maybe your connection dropped, maybe some of those bits didnt byte     |
-    | right. whatever the reason, corrupted downloads happen. Verifying the file's hash       |
-    | against the developer's original ensures your file is intact and usable.                |
+    | across networks. Maybe your connection drops, maybe the datas borked from the get go,   |
+    | or just maybe, some of those downloaded bits didnt byte right. Whatever the reason,     |
+    | corrupted downloads happen. Verifying the file's hash against the developer's original  |
+    | helps ensures your file is intact and usable.                                           |
     |                                                                                         |
     | - Ensuring Software Authenticity: <img src="3-way-spiderman-pointing">                  |
     | Tempted by free software that seems too good to be true? We've all been there (Que the  |
