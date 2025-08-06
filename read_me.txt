@@ -13,43 +13,35 @@
 | USB Creator: SKUZZYbus                                                                |
 | Email: skuzzybus@gmail.com                                                            |
 | GitHub: CipherSide                                                                    |
-| Date: 18 MAY 2025                                                                     |
-| Tails Version: tails-amd64-6.15.img                                                   |
-| Tails .img SHA256: F1B9DEDDA86C26FA054647D9B59CF4443D6F65BEAF7755C0E2213B9A4149CE03   |
+| Date: 05 AUG 2025                                                                     |
+| Tails Version: tails-amd64-6.18.img                                                   |
+| Tails .img SHA256: 5029F443383F2C6DF10E3FE1D7E15B0D1283BAB15F5FAE23F89FB8DB9EA4AC20   |
 | Skzy Signature Standard: OpenPGP                                                      |
 | Skzy Signature Algorithm: ECC Curve25519                                              |
 | Tails Signature Standard: OpenPGP                                                     |
 | Tails Signature Algorithm: RSA4096                                                    |
 |                                                                                       |
-| The signature files for tails-amd64-6.15.img / tails-amd64-6.15.img.sha256 /          |
-| read_me.txt were created using RSA4096 and Curve25519. Ensure that your verification  |
-| tool supports these algorithms to verify the integrity and authenticity of your USB.  |
+| The signature files for tails-amd64-6.18.img and read_me.txt were created using       |
+| RSA4096 and Curve25519. Ensure that your verification tool supports these algorithms  |
+| to verify the integrity and authenticity of your USB.                                 |
 |                                                                                       |
 | This USB drive contains bootable media created using BalenaEtcher software, which runs|
 | the Tails OS software.                                                                |
 ╔═══════════════════════════════════════════════════════════════════════════════════════╗
 ║  GITHUB CONTENT                                                                       ║
 ╠═══════════════════════════════════════════════════════════════════════════════════════╣
-| tails-amd64-6.15.img (Found in the GitHub Release)                                    |
+| tails-amd64-6.18.img (Found in the GitHub Release)                                    |
 | This is the .img file of the Tails OS used to create this USB device                  |
 |                                                                                       |
 |         ##For additional secure verification, you can download the img from##         |
-|     https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.img     |
+|     https://download.tails.net/tails/stable/tails-amd64-6.18/tails-amd64-6.18.img     |
 |                                                                                       |
 |                                                                                       |
-| tails-amd64-6.15.img.sig (Found in the GitHub Release)                                |
+| tails-amd64-6.18.img.sig (Found in the GitHub Release)                                |
 | Signature for the Tails OS image - Signed by the Tails OS team                        |
 |                                                                                       |
 |         ##For additional secure verification, you can download the sig from##         |
-|               https://tails.net/torrents/files/tails-amd64-6.15.img.sig               |
-|                                                                                       |
-|                                                                                       |
-| tails-amd64-6.15.img.sha256 (Found in the GitHub Release)                             |
-| The SHA256 hash of the Tails OS img file                                              |
-|                                                                                       |
-|                                                                                       |
-| tails-amd64-6.15.img.sha256.sig (Found in the GitHub Release)                         |
-| Signature for the SHA256 hash of the Tails OS image - Signed by SKUZZYbus             |
+|               https://tails.net/torrents/files/tails-amd64-6.18.img.sig               |
 |                                                                                       |
 |                                                                                       |
 | read_me.txt (Found in the GitHub Release)                                             |
@@ -101,23 +93,7 @@
 |                                                                                       |
 | You only need to import my signing key once                                           |
 ╔═══════════════════════════════════════════════════════════════════════════════════════╗
-║  VERIFICATION - TAILS-AMD64-6.15.IMG.SHA256 (GitHub Release)                          ║
-╠═══════════════════════════════════════════════════════════════════════════════════════╣
-| Save the Tails img.SHA256, Tails img.SHA256.sig, and skzy_public_key.asc to your      |
-| desktop                                                                               |
-|                                                                                       |
-| Open your GPG application and import the skzy_public_key.asc                          |
-|                                                                                       |
-| In your GPG application select the 'verify' option and select Tails img.SHA256.sig    |
-| to verify                                                                             |
-|                                                                                       |
-| Note:                                                                                 |
-| You need both the original Tails img.SHA256 and Tails img.SHA256.sig in the same      |
-| location to verify                                                                    |
-|                                                                                       |
-| You only need to import my signing key once                                           |
-╔═══════════════════════════════════════════════════════════════════════════════════════╗
-║  VERIFICATION - TAILS-AMD64-6.15.IMG (GitHub Release)                                 ║
+║  VERIFICATION - TAILS-AMD64-6.18.IMG (GitHub Release)                                 ║
 ╠═══════════════════════════════════════════════════════════════════════════════════════╣
 | PREAMBLE                                                                              |
 | As noted above, I have not included the official Tails OS signing key for you.        |
@@ -150,7 +126,7 @@
 |                         gpg --fingerprint                                             |
 |                                                                                       |
 | A few fingerprints may appear, but we are only interested in the fingerprint for the  |
-| Tails OS Signing Key:                                                                 |
+| Tails OS Signing Key (RSA4096):                                                       |
 |                                                                                       |
 |                 A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F                    |
 |                                                                                       |
@@ -158,14 +134,14 @@
 | official Tails OS Public Signature Key.                                               |
 |                                                                                       |
 | ##EXTRACT THE TAILS OS IMG AND SIG FILE##                                             |
-| From the GitHub Release, extract both the tails_amd64-6.15.img and                    |
-| tails_amd64-6.15.img.sig files to your newly created folder where you saved the Tails |
+| From the GitHub Release, extract both the tails_amd64-6.18.img and                    |
+| tails_amd64-6.18.img.sig files to your newly created folder where you saved the Tails |
 | public key.                                                                           |
 |                                                                                       |
 | ##VERIFY THE TAILS OS SIG FILE##                                                      |
 | Back in powershell, run the command:                                                  |
 |                                                                                       |
-|               gpg --verify tails-amd64-6.15.img.sig tails-amd64-6.15.img              |
+|               gpg --verify tails-amd64-6.18.img.sig tails-amd64-6.18.img              |
 |                                                                                       |
 | This command will verify that the .img and .sig file match the imported signing key.  |
 | What we are looking for from this command output is:                                  |
